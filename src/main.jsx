@@ -8,11 +8,6 @@ import filterReducer from './reducers/filterReducer'
 import { store } from './store'
 
 
-/*const store = createStore(combineReducers({
-  anecdotes: reducer,
-  filter: filterReducer
-}))*/
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>

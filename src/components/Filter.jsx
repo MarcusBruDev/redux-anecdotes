@@ -7,6 +7,7 @@ const Filter = () => {
 
   const handleChange = (event) => {
     dispatch(filterChange(event.target.value,anecdotes))
+    
   }
 
 
